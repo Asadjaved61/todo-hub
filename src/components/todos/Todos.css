@@ -1,0 +1,19 @@
+.todo-completed {
+  text-decoration: line-through;
+}
+
+.active-todos span {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+}
+
+.todo-item-text {
+  text-transform: capitalize;
+  word-break: break-all;
+  white-space: normal;
+  margin-right: 3px;
+}
